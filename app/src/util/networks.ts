@@ -233,10 +233,10 @@ export const networks: { [K in NetworkId]: Network } = {
   },
   [networkIds.XDAI]: {
     label: 'xDai',
-    url: 'https://rpc.xdaichain.com/',
+    url: 'https://rpc.gnosischain.com/',
     alternativeUrls: [
       {
-        rpcUrl: 'https://rpc.xdaichain.com/',
+        rpcUrl: 'https://rpc.gnosischain.com/',
         name: 'xDai',
       },
       {
@@ -279,7 +279,7 @@ export const networks: { [K in NetworkId]: Network } = {
     },
     targetSafeImplementation: '0x9C75A217AEA76663a9A37687606f099945eb0742',
     blockExplorer: 'blockscout',
-    blockExplorerURL: 'https://blockscout.com/poa/xdai',
+    blockExplorerURL: 'https://blockscout.com/xdai/mainnet',
   },
 }
 

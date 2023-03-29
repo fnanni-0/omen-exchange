@@ -36,7 +36,7 @@ interface ExecTransactionParams {
 }
 
 class RelayService {
-  url = 'https://omen-xdai-relay.vercel.app'
+  url = 'https://omen-relay-v2.vercel.app'
 
   request = async (payload: any) => {
     const response = await axios(this.url, {
